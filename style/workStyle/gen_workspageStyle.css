@@ -1,0 +1,96 @@
+body main hr {
+  width: 60%;
+  margin: auto;
+}
+body main .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 70px 25px;
+  background-image: url("../../imgs/backgrounds/bg_two.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+}
+body main .intro p {
+  margin-top: 10px;
+}
+body main .works_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-color: rgb(249, 249, 249);
+}
+body main .works_gallery .work_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+  background-color: rgb(228, 228, 228);
+  min-width: 300px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px -3px black;
+  position: relative;
+}
+body main .works_gallery .short-stories-card::before {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../imgs/backgrounds/shorts-cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  filter: brightness(70%);
+  position: absolute;
+  content: "";
+  border-radius: 10px;
+}
+body main .works_gallery .copper-card::before {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../imgs/backgrounds/copper-cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  filter: brightness(70%);
+  position: absolute;
+  content: "";
+  border-radius: 10px;
+}
+body main .works_gallery .copper-card:hover, body main .works_gallery .short-stories-card:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+body main .works_gallery h2 {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+body main .works_gallery h2:hover {
+  color: rgb(101, 94, 74);
+}
+body main .wattpad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+body main .wattpad img {
+  width: 130px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+}/*# sourceMappingURL=gen_workspageStyle.css.map */

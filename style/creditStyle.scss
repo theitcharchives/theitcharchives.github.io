@@ -1,0 +1,22 @@
+.credit-link{
+    text-decoration: underline;
+}
+
+.credits{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    h1{
+        text-align: center;
+    }
+    .credits-box{
+        margin-bottom: 50px;
+        ul{
+            padding-left: 20px;
+        }
+        .indented{
+            margin-left: 10px;
+        }
+    }
+
+}

@@ -1,0 +1,60 @@
+.jumbo {
+  padding: 70px 25px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.jumbo h1 {
+  position: relative;
+  color: white;
+}
+
+.copper-works-jumbo::before {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../imgs/backgrounds/copper-cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  filter: brightness(65%);
+  position: absolute;
+  content: "";
+}
+
+.short-stories-works-jumbo::before {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../imgs/backgrounds/shorts-cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  filter: brightness(65%);
+  position: absolute;
+  content: "";
+}
+
+.coro-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 25px;
+}
+.coro-gallery .coro-card {
+  padding: 40px 20px;
+  background-color: rgb(34, 34, 34);
+  color: white;
+  border-radius: 10px;
+  width: 250px;
+  margin: 20px;
+}
+.coro-gallery .coro-card h2, .coro-gallery .coro-card p {
+  text-align: center;
+}/*# sourceMappingURL=gen-index.css.map */

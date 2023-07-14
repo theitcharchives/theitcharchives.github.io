@@ -1,0 +1,21 @@
+.credit-link {
+  text-decoration: underline;
+}
+
+.credits {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.credits h1 {
+  text-align: center;
+}
+.credits .credits-box {
+  margin-bottom: 50px;
+}
+.credits .credits-box ul {
+  padding-left: 20px;
+}
+.credits .credits-box .indented {
+  margin-left: 10px;
+}/*# sourceMappingURL=creditStyle.css.map */

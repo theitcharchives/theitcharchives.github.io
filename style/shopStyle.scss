@@ -1,0 +1,153 @@
+.jumbo{
+    padding: 80px 25px;
+    background-image: url("../imgs/backgrounds/bg_tre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.shop-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: rgb(249, 249, 249);
+
+    .shop-box{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: white;
+        background-color: rgb(228, 228, 228);
+        width: 350px;
+        margin: 15px;
+        .shop-box-header{
+            height: 130px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .shop-box-text{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+    }
+    .shop-box:hover{
+        transform: scale(1.1);
+        transition: all .3s;
+    }
+
+    .threadless-box{
+        .shop-box-header{
+            background-image: url("../imgs/backgrounds/threadless-cover.png");
+        }
+    }
+
+    .dragon-cards-box{
+        .shop-box-header{
+            background-image: url("../imgs/backgrounds/dragons-cover.png");
+        }
+    }
+
+
+    /*
+    
+    .shop-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(228, 228, 228);
+        width: 350px;
+        padding: 40px;
+        margin: 15px;
+        border-radius: 10px;
+        box-shadow: 0 10px 10px -3px black;
+        position: relative;
+
+        h2, p{
+            text-align: center;
+            position: relative;
+            color: white;
+        }
+
+        h2:hover{
+            color: rgb(101, 94, 74);
+        }
+
+    }
+
+    .dragons-box::before{
+        width: 100%;
+        height: 100%;
+        background-image: url("../imgs/backgrounds/dragons-cover.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        filter: brightness(35%);
+        position: absolute;
+        content: "";
+        border-radius: 10px;
+    }
+    .dragons-box:hover{
+        transform: scale(1.1);
+        transition: all .3s;
+    }
+
+
+    .threadless-box::before{
+        width: 100%;
+        height: 100%;
+        background-image: url("../imgs/backgrounds/threadless-cover.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        filter: brightness(65%);
+        position: absolute;
+        content: "";
+        border-radius: 10px;
+    }
+    .threadless-box:hover{
+        transform: scale(1.1);
+        transition: all .3s;
+    }
+
+    */
+
+}
+
+.ask{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+    .contact-methods{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 70px;
+            height: 70px;
+            margin: 0px 15px;
+        }
+    }
+}

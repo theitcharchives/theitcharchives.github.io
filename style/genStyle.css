@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: garamond-gen;
+  src: url("../font/Garamond.ttf");
+}
+@font-face {
+  font-family: jost-gen;
+  src: url("../font/Jost.ttf");
+}
+html {
+  height: 100%;
+}
+html body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: jost-gen;
+  background-color: rgb(239, 238, 238) !important;
+  color: rgb(24, 24, 24);
+}
+html body p {
+  font-size: 20px;
+}
+html body li {
+  font-size: 20px;
+}
+html body a {
+  text-decoration: none;
+  color: rgb(21, 20, 20);
+}
+html body a:hover {
+  color: rgb(101, 94, 74);
+}
+html body .active-link:hover {
+  background-color: rgb(88, 88, 88);
+}
+html body header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+html body header .logobox {
+  width: 21%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: handwrite-logo;
+  font-size: 2rem;
+}
+html body header .logobox .logo {
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+html body header .home_nav {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+}
+html body header .home_nav .on-page {
+  font-weight: bold;
+}
+html body footer {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: 2px solid black;
+  background-color: rgb(239, 239, 239);
+}
+html body footer .contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+html body footer .contacts .contact_icon {
+  width: 25px;
+  height: 25px;
+}
+html body footer .contacts .middle_icon {
+  margin: 0px 23px;
+}
+html body footer .p-margin {
+  margin-top: 15px;
+}
+
+/* MEDIA QUERIES */
+/* small device */
+@media screen and (max-width: 619px) {
+  html body header {
+    display: flex;
+    flex-direction: column;
+  }
+  html body header .logobox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  html body header .logobox h2 {
+    text-align: center;
+  }
+  html body header .home_nav {
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    align-items: center;
+  }
+  html body header .home_nav .query-margin {
+    margin: 0px 5px;
+  }
+}/*# sourceMappingURL=genStyle.css.map */

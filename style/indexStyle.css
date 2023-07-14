@@ -1,0 +1,56 @@
+.presentat {
+  padding: 50px 25px;
+  background-image: url("../imgs/backgrounds/bg-four.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.presentat .p-margin {
+  margin-top: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+.info .meaning, .info .face {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 30px;
+}
+.info .meaning p, .info .face p {
+  text-align: center;
+}
+.info .face #me-img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.not-a-blog {
+  padding: 50px;
+  border-top: 1px solid black;
+}
+.not-a-blog .bigger {
+  text-align: center;
+}
+.not-a-blog .bigger a {
+  text-decoration: underline;
+}
+
+/* MEDIA QUERIES */
+/*small device*/
+@media screen and (max-width: 619px) {
+  main .info {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  main .info .meaning, main .info .face {
+    width: 100%;
+    padding: 40px 10px 10px 10px;
+  }
+}/*# sourceMappingURL=indexStyle.css.map */
